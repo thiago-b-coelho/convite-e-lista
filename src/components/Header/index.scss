@@ -1,0 +1,31 @@
+@use "../../sass/variables" as *;
+
+.Header{
+    padding: 15px;
+    background-color: $border-color;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 20;
+
+    &__logo{
+        width: 25px;
+    }
+
+    ul{
+        color: white;
+        display: flex;
+        list-style-type: none;
+        column-gap: 30px;
+        flex-grow: 1;
+        padding-left: 40px;
+        font-size: 16px;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

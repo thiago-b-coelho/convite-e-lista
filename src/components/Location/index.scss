@@ -1,0 +1,11 @@
+@use "../../sass/variables" as *;
+
+.Location{
+    background-color: $home-background;
+    iframe{
+        margin: 50px;
+        border: 1px solid black;
+        width: 60vw;
+        height: 60vh;
+    }
+}
