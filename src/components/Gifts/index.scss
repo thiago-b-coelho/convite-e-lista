@@ -14,6 +14,11 @@
 
         font-weight: 400;
     }
+
+    & > p{
+        margin-top: 20px;
+    }
+
     &__gifts {
         padding: 0;
         display: flex;
