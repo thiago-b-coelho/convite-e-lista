@@ -1,0 +1,58 @@
+.Modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    
+    &__content {
+        border-radius: 10px;
+        max-width: 80vw;
+        max-height: 90vh;
+        background-color: white;
+        color: #303030;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        span{
+            cursor: copy;
+        }
+        img{
+            max-width: 250px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin-top: 30px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            cursor: copy;
+            &:hover{
+                transform: translateY(-5px);
+                transition-duration: 0.9s;
+            }
+        }
+        h2{
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        h3{
+            font-weight: 700;
+        }
+        button{
+            margin-bottom: 20px;
+            font-size: 1rem;
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid #30303030;
+            cursor: pointer;
+            &:hover{
+                box-shadow: 3px 3px 2px 0px;
+            }
+        }
+    }
+}

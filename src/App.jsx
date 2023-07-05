@@ -6,7 +6,6 @@ import Location from "./components/Location/Location";
 
 
 function App({data}) {
-    console.log(data);
 
     return (
         <>
